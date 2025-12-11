@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,26 +16,34 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
-        <header>
-        <nav class="navbar navbar-expand-lg bg-2">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Curriculum</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
-                    </ul>
-                </div>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-2">
+            <a class="navbar-brand p-2" href="index.html">Curriculum</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#Biografia">Biografía</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#Estudios">Estudios</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#Laboral">Experiencia Laboral</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+
+                </ul>
+
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="bg-1 py-3">
+        <section class="bg-1 py-3 " id="Biografia">
             <div class="container">
                 <div class="text-center mb-3">
                     <h2 class="section-title">Datos e información</h2>
@@ -76,7 +85,7 @@
             </div>
         </section>
 
-        <section class="py-4 text-center bg-1">
+        <section class="py-4 text-center bg-1" id="Estudios">
             <div class="container">
                 <h2 class="section-title">Formación Académica</h2>
 
@@ -94,7 +103,7 @@
             </div>
         </section>
 
-        <section class="bg-1 py-3">
+        <section class="bg-1 py-3 " id="Laboral">
             <div class="container">
                 <h2 class="section-title text-center">Experiencia Laboral</h2>
 
@@ -119,7 +128,7 @@
     </main>
 
     <footer class="py-3 text-center bg-2">
-        <p>Noemí Rubio. Todos los derechos reservados.</p>
+        <p> &copy;Noemí Rubio. Todos los derechos reservados.</p>
 
     </footer>
 
@@ -128,4 +137,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
